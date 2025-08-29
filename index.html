@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emergency Hotline</title>
+    <!-- css -->
+     <link rel="stylesheet" href="style.css">
+    <!-- tailwind css -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- daisyui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <!-- navbar section -->
+    <section id="nav-section " class="flex justify-between items-center w-full h-[100px] p-14">
+        <div class="navebar flex items-center gap-2">
+            <div><img class="w-[50px] h-[50px]" src="./assets/logo.png" alt=""></div>
+            <div><h1 class="font-bold text-[#006747]">Emergency <br> Service</h1></div>
+        </div>
+        <div class="navebar flex items-center gap-2 ">
+            <button id="heart-btn" class="flex justify-between items-center p-5 rounded-3xl h-[52px] w-[123px] bg-[#41ff6b1a] ">
+                <span class="counter">0</span>
+                <img id="count-heart" class="h-[30px] w-[30px]" src="./assets/heart.png" alt=""></button>
+            <button id="coin-btn" class="flex justify-between items-center p-5 rounded-3xl h-[52px] w-[123px] bg-[#41ff6b1a]">
+                <span class="counter">100</span>
+                <img class="h-[30px] w-[30px]" src="./assets/coin.png" alt=""></button>
+            <div id="copy-btn" class="flex justify-between items-center">
+                 <button class="rounded-3xl w-[127px] h-[52px] bg-[#00a63e] flex justify-center items-center">
+                 <span class="counter p-3">0</span> copy</button>
+            </div>
+
+        </div>
+
+   
+
+      <!-- js -->
+       <script src="script.js"></script>
+</body>
+</html>
